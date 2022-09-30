@@ -21,6 +21,7 @@ int main(){
     for(int i = 0; i < N; i++){
         a[i] = 1.0f; b[i] = 2.0f;
     }
+    
 
     //allocate device memory
     cudaMalloc((void**)&d_a, sizeof(float)*N);
